@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
@@ -7,47 +7,155 @@
     <meta content="ie=edge" http-equiv="X-UA-Compatible">
     <title>Kleberson Santos</title>
     <link href="css/style.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital@1&family=Gloria+Hallelujah&family=Roboto:wght@400;500;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital@1&family=Gloria+Hallelujah&family=Roboto:wght@400;500;900&display=swap"
+          rel="stylesheet">
+
+    <script crossorigin="anonymous" src="https://kit.fontawesome.com/8b9f1793b6.js">
+    </script>
 
 </head>
 <body>
 <header>
     <nav class="menu">
         <ul>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Portfólio</a></li>
-            <li><a href="#">Contato</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#portfolio">Portfólio</a></li>
+            <li><a href="#contato">Contato</a></li>
         </ul>
     </nav>
-    <div>
+    <div class="titulo">
         <h1 class="site-title">Kleberson Santos</h1>
         <h2 class="site-subtitle">evangelista das boas práticas e das boas novas</h2>
         <h2 class="site-subtitle">cloud developer</h2>
 
     </div>
 </header>
-<section class="portifolio">
-    <h2>Portfólio</h2>
+<section class="sobre container" id="sobre">
+    <h2>Sobre</h2>
+
+    <figure class="avatar">
+        <img alt="Kleberson Santos" src="./img/perfil.jpg">
+    </figure>
+
+    <p>
+        Atua na área da tecnologia da informação, com análise e desenvolvimento de sistemas na plataforma Java.
+    </p>
+
+    <p>
+        Interesses em:
+    </p>
+
+    <p>
+        - Tecnologias de Programação: Java (J2SE, J2EE), Guava (Google), HTML, CSS, JavaScript, jQuery, Servlets, JSP,
+        Annotation e Struts, JPA.
+    </p>
+
+    <p>
+        - Sistemas Operacionais: Windows e Linux.
+    </p>
+
+    <p>
+        - Boas práticas com Java, Orientação a Objetos e Design Pattners, UML, Entrega Contínua com Tecnologia Ágil, TDD
+        e Qualidade de Software.
+    </p>
+
+    <p>
+        - Desenvolvimento de API REST com Spring Framework.
+    </p>
+
+    <p>
+        - Servidores Web / Aplicação: Apache TOMCAT, JBOSS, Wildfly e arquitetura de software para aplicativos baseados em rede e microserviços.
+    </p>
+
+    <p>
+        - Banco de Dados: ORACLE, MYSQL, Firebird e SQL Server.
+    </p>
+
+    <p>
+        - Domínio de diversos Framework's Action Based e Component Based.
+    </p>
+
+    <p>
+        - Softwares e Ferramentas de Desenvolvimento: Eclipse IDE, SQL Developer(ORACLE), Intellij, Microsoft
+        Office, MYSQL Query Browser(MYSQL) e Log4J.
+    </p>
+
+    <p>
+        - Análise de Sistemas: Levantamento de Requisitos, Elaboração de documentação de Use Case e Diagramas UML,
+        Modelagem de Banco de Dados, Desenvolvimento de Aplicações.
+    </p>
+
+
+</section>
+<section class="portfolio container" id="portfolio">
+    <h2>Projetos</h2>
 
     <div class="grid">
-        <figure>
-            <img alt="eCommerce" class="img-portfolio" src="./img/aw-ecommerce.jpg">
-            <figcaption>eCommerce</figcaption>
-        </figure>
-        <figure>
-            <img alt=">Mobile" class="img-portfolio" src="./img/aw-responsive.jpg">
-            <figcaption>Mobile</figcaption>
-        </figure>
-        <figure>
-            <img alt="Web design" class="img-portfolio" src="./img/wd-webdesing.jpg">
-            <figcaption>Web design</figcaption>
-        </figure>
-        <figure>
-            <img alt="Projetos pessoais" class="img-portfolio" src="./img/personal-projects.jpg">
-            <figcaption>Projetos pessoais</figcaption>
-        </figure>
+
+        <div class="flip-card">
+            <div class="card">
+                <figure class="card-front">
+                    <img alt="eCommerce" class="img-portfolio" src="./img/aw-ecommerce.jpg">
+                </figure>
+                <div class="card-back">
+                    <h3>e-Commerce</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="flip-card">
+            <div class="card">
+                <figure class="card-front">
+                    <img alt=">Mobile" class="img-portfolio" src="./img/aw-responsive.jpg">
+                </figure>
+                <div class="card-back">
+                    <h3>Mobile</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="flip-card">
+            <div class="card">
+                <figure class="card-front">
+                    <img alt="Web design" class="img-portfolio" src="./img/wd-webdesing.jpg">
+                </figure>
+                <div class="card-back">
+                    <h3>Web design</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="flip-card">
+            <div class="card">
+                <figure class="card-front">
+                    <img alt="Projetos pessoais" class="img-portfolio" src="./img/personal-projects.jpg">
+                </figure>
+                <div class="card-back">
+                    <h3>Projetos pessoais</h3>
+                </div>
+            </div>
+        </div>
+
     </div>
 
+</section>
+<section class="contato container" id="contato">
+    <h2>Contato</h2>
+
+    <div class="grid icons">
+        <a href="https://github.com/kleberson2santos" target="_blank">
+            <i class="fab fa-github"></i>
+        </a>
+        <a href="https://twitter.com/kleber2santos" target="_blank">
+            <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/kleberson2santos" target="_blank">
+            <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/kleberson2santos" target="_blank">
+            <i class="fab fa-instagram"></i>
+        </a>
+    </div>
 </section>
 </body>
 </html>
